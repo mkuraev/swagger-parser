@@ -297,5 +297,12 @@
         <commons-lang-version>3.2.1</commons-lang-version>
         <jackson-version>2.9.9</jackson-version>
     </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://nexus.voskhod.local/nexus-2.7.0/content/repositories/releases/</url>
+        </repository>
+    </distributionManagement>
     
 </project>
